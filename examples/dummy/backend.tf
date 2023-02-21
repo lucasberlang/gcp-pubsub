@@ -17,7 +17,7 @@ terraform {
 
 terraform {
   backend "gcs" {
-    bucket = "go-agl-sec-shclg-p01-pre-tf-state"
+    bucket = "xxxxxx"
     prefix = "terraform/modules/gcp-pubsub/state"
   }
 }
